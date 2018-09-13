@@ -1819,8 +1819,11 @@ pre code {
 }
 
 @media (min-width:768px) {
+  .navbar-fixed-top .container{
+    width: 960px
+  }
   .container {
-    width: 750px
+    width: 930px
   }
 }
 
