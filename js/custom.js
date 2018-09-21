@@ -112,6 +112,7 @@ $(function() {
                 $('.Roadmap-p19').html($.i18n.prop('Roadmap p19'));
                 $('.Roadmap-p20').html($.i18n.prop('Roadmap p20'));
                 $('.Roadmap-p21').html($.i18n.prop('Roadmap p21'));
+                $('.Roadmap-p22').html($.i18n.prop('Roadmap p22'));
 
                 //team
                 $('.Team-p1').html($.i18n.prop('Team p1'));
