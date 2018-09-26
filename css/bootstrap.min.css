@@ -1438,7 +1438,7 @@ hr {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: inherit;
+  /* font-family: inherit; */
   font-weight: 500;
   line-height: 1.1;
   color: inherit
@@ -1819,9 +1819,9 @@ pre code {
 }
 
 @media (min-width:768px) {
-  .navbar-fixed-top .container{
-    width: 960px
-  }
+  /* .navbar-fixed-top .container{
+    width: 1170px
+  } */
   .container {
     width: 930px
   }

@@ -17,6 +17,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     vertical-align: baseline;
     word-wrap: break-word;
+    font-family:Coves-Bold!important;
 }
 
 img {
@@ -53,7 +54,7 @@ h5 {
 }
 
 p {
-    color: #727272;
+    color: #A3A8AF;
     letter-spacing: 0.9px;
     line-height: 28px;
 }
@@ -83,7 +84,8 @@ hr {
     padding: 50px;
     position: relative;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #about .section-title,
@@ -118,10 +120,13 @@ hr {
 #contact,
 #roadmap,
 #FQA,
-#home,
-#LEGAL {
-    padding-top: 60px;
-    padding-bottom: 100px;
+#home{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+#FQA,#plan,#LEGAL{
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 #team,
@@ -142,7 +147,6 @@ hr {
     font-size: 0;
     overflow: hidden;
 }
-
 
 /* preloader styles
 /* ========================================== */
@@ -237,9 +241,10 @@ hr {
     display: block;
     padding: 15px 10px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    word-spacing: -2px;
 }
 
 .custom-navbar .nav li a:hover {
@@ -308,7 +313,7 @@ hr {
 }
 
 .site-slider-img {
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
@@ -409,7 +414,7 @@ hr {
     font-weight: 600;
     display: inline-block;
     margin-bottom: 24px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 .slider-caption p {
@@ -561,9 +566,10 @@ hr {
 }
 
 #heading {
-    font-size: 20px!important;
+    font-size: 28px!important;
     line-height: 40px!important;
     color: rgba(18, 30, 56)!important;
+    font-weight: 500;
 }
 
 #team #heading {
@@ -595,12 +601,12 @@ hr {
     color: #ffffff;
     text-align: center;
     position: relative;
-    padding-bottom: 340px;
+    padding-bottom: 70px;
 }
 
 #about .bg {
     width: 60%;
-    margin-top: 175px;
+    margin-top: 70px;
 }
 
 #about .about-list {
@@ -621,6 +627,11 @@ hr {
 
 #about .list-item h4 {
     color: #354453;
+    font-size: 16px;
+    font-weight: 500;
+    width: 92%;
+    margin: 0 auto;
+    line-height: 20px;
 }
 
 #about .list-item {
@@ -669,6 +680,8 @@ hr {
 
 #about h2 {
     padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 37px;
 }
 
 @media (min-width: 768px) {
@@ -705,14 +718,14 @@ hr {
         left: 0;
     }
     #about .list-item1.list-item-small {
-        top: 100px;
+        top: 90px;
     }
     #about .list-item2 {
         position: absolute;
         right: 0;
     }
     #about .list-item2.list-item-small {
-        top: 100px;
+        top: 90px;
     }
     #about .list-item3 {
         position: absolute;
@@ -799,6 +812,8 @@ hr {
 
 .h2-cl {
     color: #121E38!important;
+    font-weight: 500;
+    font-size: 37px;
 }
 
 #about .panel-group .panel,
@@ -835,7 +850,7 @@ hr {
 /* ========================================== */
 
 #roadmap {
-    background: #F1F4FB;
+    background: #F9F9FB;
 }
 
 #roadmap .road-flex {
@@ -858,9 +873,10 @@ hr {
 }
 
 #roadmap .road-flex p {
-    color: rgba(190, 190, 190);
     line-height: 20px;
     padding: 4px 0;
+    font-size: 12px;
+    margin: 0;
 }
 
 #roadmap .road-flex .road-flex-item-ac div p {
@@ -873,26 +889,34 @@ hr {
 }
 
 #roadmap .road-flex .road-flex-item div p:nth-of-type(1) {
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #roadmap .road-flex .road-flex-item-ac div p:nth-of-type(2) {
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #roadmap .road-flex .road-flex-item div p:nth-of-type(2) {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#roadmap .road-flex .road-flex-item div:nth-of-type(3) p:nth-of-type(1) {
     font-weight: bold;
-    font-size: 16px;
 }
 
 #roadmap .road-flex .road-flex-item {
-    padding: 0 40px;
+    padding: 0 10px;
     font-size: 14px;
+    width: 100%;
     /* width: 100%; */
 }
-
+.road-flex-item1{
+  /* width: 50%; */
+}
 #roadmap .road-flex .road-flex-item div:nth-of-type(1) {
     text-align: center;
     width: 150px;
@@ -970,7 +994,7 @@ hr {
 /* ========================================== */
 
 #team {
-    background: #F1F4FB;
+    background:#F9F9FB;
 }
 
 #team h3 {
@@ -983,8 +1007,8 @@ hr {
 }
 
 #team .framework img {
-    margin: 3% 0;
-    width: 40%;
+    margin: 5% 0;
+    width: 52%;
 }
 
 #team .team-wrapper .team-des {
@@ -1424,6 +1448,8 @@ footer .container .row .footer-flex p {
     color: #fff;
     text-align: left;
     margin-bottom: 0;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 footer .container .row .footer-flex1 p {
@@ -1885,38 +1911,46 @@ a.footer-p2:hover {
 }
 
 .work-box {
-    height: 50%;
+    height: 40%;
     display: flex;
 }
-
+.work-box1{
+    height: 50%;
+}
 .work-flex {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 30px;
 }
 
 .work-img {
-    padding: 50px 0 0 60px;
+    /* padding: 50px 0 0 60px; */
     display: inline-block;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 #work .work-content img {
-    margin-bottom: 20px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 
 #work .work-text {
-    position: absolute;
-    top: 50%;
-    margin-top: -23px;
-    left: 130px;
     font-size: 26px;
-    width: 260px;
+    /* width: 300px; */
 }
 
 #work .work-text h3 {
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #A3A8AF;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 25px;
 }
 
 #team #heading {
@@ -1943,7 +1977,7 @@ a.footer-p2:hover {
 }
 
 .work-flex:nth-of-type(even) .work-img {
-    padding: 50px 0 0 20px;
+    /* padding: 50px 0 0 20px; */
 }
 
 #work .work-text.work-text1 {
@@ -1961,27 +1995,118 @@ a.footer-p2:hover {
 }
 
 .work-box:nth-of-type(1) .work-img {
-    padding-top: 117px;
+    /* padding-top: 117px; */
 }
 
 #work .work-box:nth-of-type(1) .work-img .work-text {
-    margin-top: 11px
+    /* margin-top: 11px */
 }
 
 #team #heading.algin-center {
     text-align: center;
     padding-left: 0;
+    height: auto;
+    line-height: 26px!important;
+    padding: 0;
+    margin: 0;
+    color: #A3A8AF!important;
+    font-size: 18px!important;
+    font-weight: 500;
 }
-
+#team .section-title .h2-cl{
+  margin-bottom: 60px;
+}
 #team {
     padding-bottom: 0;
 }
 
 #team .section-title {
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 
 .margin_top {
     position: absolute;
     top: -20px;
+}
+
+/* 9.26 update
+------------------------------------- */
+.nav{
+  font-family: Coves-Light;
+}
+.custom-navbar .nav li a{
+  font-size: 14px;
+}
+.slider-caption h2{
+  font-size: 0.57rem;
+}
+.slider-caption p{
+  font-size: 0.44rem;
+}
+.site-slider-img{
+  /* height: 9rem; */
+}
+.science-flex{
+  flex: 1;
+}
+.science-flex-img{
+  /* width: 168px;
+  height: 202px; */
+  width: 52%;
+}
+.science-flex-text{
+  font-size: 15px;
+  line-height: 20px;
+  color: #A3A8AF;
+  font-weight: normal;
+  margin-top: 10px;
+}
+#team .science-flex{
+  margin: 50px 60px 80px;
+}
+#team .work-content{
+  height: auto;
+  background: #fff;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.08);
+}
+#team .work-box{
+  height: auto;
+  margin: 80px 0 60px 0;
+}
+#portfolio .section-title{
+  padding-bottom: 50px;
+}
+#portfolio .portfolio-bottom-flex div span{
+  font-size: 15px;
+  line-height: 20px;
+  color: #A3A8AF;
+  font-weight: normal;
+}
+#portfolio .portfolio-bottom-flex div h3{
+  font-size: 42px!important;
+}
+#roadmap .section-title{
+  padding-bottom: 50px;
+}
+.footer-flex-height{
+  width: 100%;
+  height: 34.23px;
+}
+.navbar-brand>img{
+  width: 80.14px;
+  height: 34.23px;
+}
+footer .container .row .footer-flex .logo{
+  width: 80.14px;
+  height: 34.23px;
+}
+footer .footer-flex-center .footer-flex-height{
+  display: flex;
+  justify-content: center;
+}
+footer .container .row .footer-flex-center p{
+  text-align: center;
+}
+.road-flex-color{
+  color: #A3A8AF;
 }
