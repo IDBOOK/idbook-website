@@ -1963,7 +1963,7 @@ a.footer-p2:hover {
 div#home{
   min-height: 730px;
 }
-.work-box div:nth-of-type(2){
+.work-box-no-magin div:nth-of-type(2){
   margin-left: 0%!important;
 }
 .work-box1{
