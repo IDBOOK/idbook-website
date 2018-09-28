@@ -2164,10 +2164,10 @@ footer .container .row .footer-flex-center p{
   color: #A3A8AF;
 }
 #progressBar{
-  width: 100%;
+  width: 98%;
   height: 32px;
   position: absolute;
-  margin: 0;
+  margin: 0 auto;
   top: 160px;
 }
 #progressBar div{
@@ -2184,7 +2184,7 @@ footer .container .row .footer-flex-center p{
   display: inline-block;
   background: #1F2C3E;
   height: 3px;
-  width: 33.15%;
+  width: 32.9%;
 }
 #progressBar>span{
   position: absolute;
