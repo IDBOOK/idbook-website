@@ -210,7 +210,7 @@ $(function() {
     navLanguage == 'zh' ? $('.list-item').removeClass('list-item-ac') : $('.list-item').addClass('list-item-ac');
     navLanguage == 'zh' ? $('.about-flex-bg').removeClass('about-flex-bg-ac') : $('.about-flex-bg').addClass('about-flex-bg-ac');
     navLanguage == 'zh' ? $('.about-list').removeClass('about-list-ac') : $('.about-list').addClass('about-list-ac');
-    navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/75bvc4n') : $('.white-paper').attr('href', 'https://docsend.com/view/rri3cbx');
+    navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/iar5cv4') : $('.white-paper').attr('href', 'https://docsend.com/view/mctp7un');
     navLanguage == 'zh' ? $('.en-text-left').css('text-align', 'center') : $('.en-text-left').css('text-align', 'left');
     navLanguage == 'zh' ? $('.Idbook-p2').removeClass('Idbook-p2-ac') : $('.Idbook-p2').addClass('Idbook-p2-ac');
     // navLanguage == 'zh' ? $('.team-wrapper .team-des').removeClass('team-des-ac') : $('.team-wrapper .team-des').addClass('team-des-ac');
@@ -236,7 +236,7 @@ $(function() {
             navLanguage == 'zh' ? $('.list-item').removeClass('list-item-ac') : $('.list-item').addClass('list-item-ac');
             navLanguage == 'zh' ? $('.about-flex-bg').removeClass('about-flex-bg-ac') : $('.about-flex-bg').addClass('about-flex-bg-ac');
             navLanguage == 'zh' ? $('.about-list').removeClass('about-list-ac') : $('.about-list').addClass('about-list-ac');
-            navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/75bvc4n') : $('.white-paper').attr('href', 'https://docsend.com/view/rri3cbx');
+            navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/iar5cv4') : $('.white-paper').attr('href', 'https://docsend.com/view/mctp7un');
             navLanguage == 'zh' ? $('.en-text-left').css('text-align', 'center') : $('.en-text-left').css('text-align', 'left');
             navLanguage == 'zh' ? $('.Idbook-p2').removeClass('Idbook-p2-ac') : $('.Idbook-p2').addClass('Idbook-p2-ac');
             // navLanguage == 'zh' ? $('.team-wrapper .team-des').removeClass('team-des-ac') : $('.team-wrapper .team-des').addClass('team-des-ac');
