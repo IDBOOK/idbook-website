@@ -930,7 +930,7 @@ hr {
 }
 
 #roadmap .road-flex .road-flex-item {
-    padding: 0 1%;
+    padding: 0 10px;
     font-size: 14px;
     width: 98%;
     /* width: 100%; */
@@ -941,7 +941,7 @@ hr {
 #roadmap .road-flex .road-flex-item div:nth-of-type(1) {
     text-align: center;
     width: 150px;
-    height: 107px;
+    height: 112px;
     /* width: 174px;
     height: 141px; */
     line-height: 40px;
@@ -2184,7 +2184,7 @@ footer .container .row .footer-flex-center p{
   display: inline-block;
   background: #1F2C3E;
   height: 3px;
-  width: 32.9%;
+  width: 32.8%;
 }
 #progressBar>span{
   position: absolute;
@@ -2213,7 +2213,7 @@ footer .container .row .footer-flex-center p{
   box-sizing: content-box;
   position: relative;
   z-index: 500;
-  top: 5px;
+  top: 0;
 }
 .sp-cire-1-ac{
   background: #1F2C3E;
@@ -2249,4 +2249,7 @@ footer .container .row .footer-flex-center p{
 }
 .about-flex-bg-ac{
   padding-bottom: 160px;
+}
+#roadmap .road-flex p.active{
+  color: #121E38;
 }
