@@ -1,21 +1,21 @@
 /* REM
  -----------------------------------------------*/
-$(window).resize(function ()// 绑定到窗口的这个事件中
-{
-  var whdef = 100/1920;// 表示1920的设计图,使用100PX的默认值
-  var wH = window.innerHeight;// 当前窗口的高度
-  var wW = window.innerWidth;// 当前窗口的宽度
-  var rem = wW * whdef;// 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
-  $('html').css('font-size', rem + "px");
-});
+$(window).resize(function() // 绑定到窗口的这个事件中
+    {
+        var whdef = 100 / 1920; // 表示1920的设计图,使用100PX的默认值
+        var wH = window.innerHeight; // 当前窗口的高度
+        var wW = window.innerWidth; // 当前窗口的宽度
+        var rem = wW * whdef; // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
+        $('html').css('font-size', rem + "px");
+    });
 
 /* jQuery Preloader
  -----------------------------------------------*/
 $(window).load(function() {
-    var whdef = 100/1920;// 表示1920的设计图,使用100PX的默认值
-    var wH = window.innerHeight;// 当前窗口的高度
-    var wW = window.innerWidth;// 当前窗口的宽度
-    var rem = wW * whdef;// 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
+    var whdef = 100 / 1920; // 表示1920的设计图,使用100PX的默认值
+    var wH = window.innerHeight; // 当前窗口的高度
+    var wW = window.innerWidth; // 当前窗口的宽度
+    var rem = wW * whdef; // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
     $('html').css('font-size', rem + "px");
     $('.preloader').fadeOut(1000); // set duration in brackets
 });
@@ -219,7 +219,7 @@ $(function() {
     navLanguage == 'zh' ? $('.list-item').removeClass('list-item-ac') : $('.list-item').addClass('list-item-ac');
     navLanguage == 'zh' ? $('.about-flex-bg').removeClass('about-flex-bg-ac') : $('.about-flex-bg').addClass('about-flex-bg-ac');
     navLanguage == 'zh' ? $('.about-list').removeClass('about-list-ac') : $('.about-list').addClass('about-list-ac');
-    navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/n3vd5m2') : $('.white-paper').attr('href', 'https://docsend.com/view/c6w5a2n');
+    navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/adi48ic') : $('.white-paper').attr('href', 'https://docsend.com/view/3vv23qu');
     navLanguage == 'zh' ? $('.en-text-left').css('text-align', 'center') : $('.en-text-left').css('text-align', 'left');
     navLanguage == 'zh' ? $('.Idbook-p2').removeClass('Idbook-p2-ac') : $('.Idbook-p2').addClass('Idbook-p2-ac');
     // navLanguage == 'zh' ? $('.team-wrapper .team-des').removeClass('team-des-ac') : $('.team-wrapper .team-des').addClass('team-des-ac');
@@ -245,7 +245,7 @@ $(function() {
             navLanguage == 'zh' ? $('.list-item').removeClass('list-item-ac') : $('.list-item').addClass('list-item-ac');
             navLanguage == 'zh' ? $('.about-flex-bg').removeClass('about-flex-bg-ac') : $('.about-flex-bg').addClass('about-flex-bg-ac');
             navLanguage == 'zh' ? $('.about-list').removeClass('about-list-ac') : $('.about-list').addClass('about-list-ac');
-            navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/n3vd5m2') : $('.white-paper').attr('href', 'https://docsend.com/view/c6w5a2n');
+            navLanguage == 'zh' ? $('.white-paper').attr('href', 'https://docsend.com/view/adi48ic') : $('.white-paper').attr('href', 'https://docsend.com/view/3vv23qu');
             navLanguage == 'zh' ? $('.en-text-left').css('text-align', 'center') : $('.en-text-left').css('text-align', 'left');
             navLanguage == 'zh' ? $('.Idbook-p2').removeClass('Idbook-p2-ac') : $('.Idbook-p2').addClass('Idbook-p2-ac');
             // navLanguage == 'zh' ? $('.team-wrapper .team-des').removeClass('team-des-ac') : $('.team-wrapper .team-des').addClass('team-des-ac');
