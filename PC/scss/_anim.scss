@@ -1,0 +1,75 @@
+
+
+
+
+
+
+.play-anim{
+    animation:play 0.8s ease both;
+}
+@keyframes play{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform: rotate(-720deg);
+        opacity:0;
+    }
+}
+.inLeft{
+    animation-name: inLeft
+}
+
+@keyframes inLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100px,0,0)
+    }
+
+    100% {
+        opacity: 1;
+        transform: none
+    }
+}
+.inRight{
+    animation-name: inRight
+}
+@keyframes inRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100px,0,0)
+    }
+
+    100% {
+        opacity: 1;
+        transform: none
+    }
+}
+.inUp{
+    animation-name: inUp
+}
+@keyframes inUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100px,0)
+    }
+
+    100% {
+        opacity: 1;
+        transform: none
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
