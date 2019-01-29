@@ -8,6 +8,8 @@ table{border-collapse:collapse;border-spacing:0}
 body,html{-webkit-overflow-scrolling:touch}
 a{background-color:transparent;outline:0;text-decoration:none;-webkit-tap-highlight-color:transparent;cursor:pointer}
 body{position: relative;}
+.Chinese{display: none;}
+
 .d-n{display: none;}
 .clear{clear:both}
 .cf:after{font-size:0;display:block;visibility:hidden;clear:both;height:0;content:''}
@@ -92,8 +94,8 @@ img{max-width:100%;vertical-align:top}
 .page1 .content .btn-box a:hover{color:#008d84;background:url(../img/page1/page1_btn_in.png) no-repeat top center/100% auto}
 .page1 .content .btn-box a:after{content:'';width:19px;height:21px;position:absolute;top:0;right:0;background:url(../img/page1/page1_btn_icon.png) no-repeat 0 0/100% auto;display:block}
 .page2{height:1077px;background:url(../img/page2/page.jpg) no-repeat top center;position:relative}
-.page2 .content{width:840px;margin:0 auto 0;padding-top:410px}
-.page2 .content .txt{font-size:30px;color:#fff;padding-left:60px;background:url(../img/page2/txt_icon.png) no-repeat 0 10px}
+.page2 .content{width:840px;margin:0 auto 0;padding-top:410px;text-align: center;}
+.page2 .content .txt{display: inline-block;font-size:30px;color:#fff;padding-left:60px;background:url(../img/page2/txt_icon.png) no-repeat 0 10px}
 .page2 .content .play-btn{width:122px;height:122px;background:url(../img/page2/play_btn.png) no-repeat 0 0;margin:90px auto 0;cursor:pointer}
 .video-box{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:99999;display:none}
 #video{width: 80%;height: auto;position: relative;left: 50%;transform: translateX(-50%);}
@@ -148,7 +150,7 @@ img{max-width:100%;vertical-align:top}
 .page6 .tt{font-size:32px;color:#fff;text-align:center;font-weight:700;padding-top:50px;position:relative;z-index: 99;}
 .page6 .road-itme4{top:1000px;right:0px;width:400px}
 .page6 .road-itme3{top:600px;left:0px;width:425px}
-.page6 .road-itme2{top:290px;right:0px;width:400px}
+.page6 .road-itme2{top:290px;right:0px;width:415px}
 .page6 .road-itme1{top:95px;left:0px;width:425px}
 .page6 h3{font-size:18px;color:#53565a}
 .page6 h3 .num{font-size:60px}
@@ -178,8 +180,8 @@ img{max-width:100%;vertical-align:top}
 .page7 .list .item .item-tt{font-size:20px;color:#fff;font-weight:400;text-align:center;padding:0 5px;margin-top:10px}
 .page7 .list .item .desc{font-size:16px;color:#91979d;line-height:2.4;width:90%;margin:0 auto}
 .page7 .list .item .desc .show-tag:hover .tag{display:block}
-.page7 .list .item .desc a,.page7 .list .item .desc span{border-bottom:1px solid #005db9;color:#005db9;cursor:pointer;position:relative}
-.page7 .list .item .desc a .tag,.page7 .list .item .desc span .tag{position:absolute;top:-50%;left:50%;width:31px;height:36px;margin-top:-10px;margin-left:12px;background:url(../img/page7/popover.png) no-repeat center center/cover;display:none}
+.page7 .list .item .desc a,.page7 .list .item .desc .tes{border-bottom:1px solid #005db9;color:#005db9;cursor:pointer;position:relative}
+.page7 .list .item .desc a .tag,.page7 .list .item .desc .tes .tag{position:absolute;top:-50%;left:50%;width:31px;height:36px;margin-top:-10px;margin-left:12px;background:url(../img/page7/popover.png) no-repeat center center/cover;display:none}
 .page7 .list .item:nth-child(2n+2){margin-right:0;margin-top:40px}
 .page8{padding-bottom:80px;background:url(../img/page8/page.jpg) no-repeat top center}
 .page8 h3{font-size:32px;color:#fff;text-align:center;font-weight:700;padding-top:70px}
@@ -205,7 +207,7 @@ img{max-width:100%;vertical-align:top}
 .page9 .list .item{width:32.3333%;margin-right:1.5%;position:relative;margin-bottom:70px;display:inline-block;padding: 20px 0;}
 .page9 .list .item .headimg{width:120px;height:120px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;overflow:hidden;display:block;margin:0 auto 30px;cursor:pointer}
 .page9 .list .item .item-tt{font-size:25px;color:#fff;font-weight:400;margin-bottom:20px;cursor:pointer}
-.page9 .list .item .item-tt span{font-weight:700;display:block;font-size:20px}
+.page9 .list .item .item-tt p{font-weight:700;display:block;font-size:20px}
 .page9 .list .item .item-tt strong{font-weight:400;display:block;font-size:16px}
 .page9 .list .item .desc{font-size:18.75px;color:#91979d;line-height:2}
 .page9 .list .item .btn{margin-top:10px}

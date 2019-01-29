@@ -56,3 +56,15 @@ $('.nav-a6').click(function(){
 })
 
 
+$(".nav-Sign").click(function(){
+	var language = $(".language").val();
+	if(language == 1){
+	　　$(".English").show();　
+		$(".Chinese").hide();
+		$(".language").val("2")
+	}else if(language == 2){
+	　　$(".English").hide();
+		$(".Chinese").show();
+		$(".language").val("1")
+	} 
+})

@@ -128,7 +128,7 @@ input, select, textarea{margin: 0;padding: 0;border: none;border-radius: 0;-webk
 .nav li a{font-size: 0.24rem;color: #fff;display: inline-block;padding-left: 0.3rem;}
 .nav li.active{background: rgba(0,0,0,0.5);}
 .nav li.active a{background: url(../img/nav-active.png) no-repeat left center;background-size:0.6rem auto;}
-.nav-Sign{text-indent: 0.25rem;font-size: 0.22rem;top: 0.6rem;right: 0.4rem;width:1.54rem;height: 0.6rem;line-height: 0.6rem;background: url(../img/nav-Sign.png) no-repeat center center;background-size: 1.54rem 0.6rem;color: #fff;}
+.nav-Sign{text-indent: 0.12rem;font-size: 0.22rem;top: 0.6rem;right: 0.4rem;width:1.54rem;height: 0.6rem;line-height: 0.58rem;background: url(../img/nav-Sign.png) no-repeat center center;background-size: 1.54rem 0.6rem;color: #fff;}
 
 .nav-i{width: 0.55rem;height: 0.55rem;top: 0.6rem;left: 0.6rem;cursor:pointer;z-index: 999999;background: url(../img/nav.png) no-repeat center center;background-size: 0.55rem auto;}
 
