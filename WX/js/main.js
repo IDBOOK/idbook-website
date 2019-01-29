@@ -61,10 +61,12 @@ $(".nav-Sign").click(function(){
 	if(language == 1){
 	　　$(".English").show();　
 		$(".Chinese").hide();
+		$(".footer-input").attr("placeholder","Enter your email");
 		$(".language").val("2")
 	}else if(language == 2){
 	　　$(".English").hide();
 		$(".Chinese").show();
+		$(".footer-input").attr("placeholder","输入邮箱");
 		$(".language").val("1")
 	} 
 })

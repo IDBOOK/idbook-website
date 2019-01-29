@@ -56,6 +56,14 @@ $(function() {
 		$(".page9-zz").hide();
         var index = $(this).parents(".item").index();
 		$(this).parent(".item").find(".page9-zz").fadeIn().find("p").html(jobList[index]);
+		var language = $(".language").val();
+		if(language == 1){
+		　　$(".English").hide();　
+		    $(".Chinese").show();
+		}else if(language == 2){
+		　　$(".English").show();
+			$(".Chinese").hide();
+		}
     })
 	$(".page9-zz").click(function(){
 		$(this).hide();
@@ -146,10 +154,12 @@ $(function() {
 		if(language == 1){
 		　　$(".English").show();　
 		    $(".Chinese").hide();
+			$(".email").attr("placeholder","Enter your email");
 			$(".language").val("2")
 		}else if(language == 2){
 		　　$(".English").hide();
 			$(".Chinese").show();
+			$(".email").attr("placeholder","输入邮箱");
 			$(".language").val("1")
 		} 
 	})
