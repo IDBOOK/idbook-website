@@ -56,17 +56,19 @@ $('.nav-a6').click(function(){
 })
 
 
-$(".nav-Sign").click(function(){
+$(".nav-Sign,.languageon").click(function(){
 	var language = $(".language").val();
 	if(language == 1){
 	　　$(".English").show();　
 		$(".Chinese").hide();
 		$(".footer-input").attr("placeholder","Enter your email");
+		$(".swiper-slide1 a1").attr("href","https://docsend.com/view/adi48ic");
 		$(".language").val("2")
 	}else if(language == 2){
 	　　$(".English").hide();
 		$(".Chinese").show();
 		$(".footer-input").attr("placeholder","输入邮箱");
+		$(".swiper-slide1 a1").attr("href","https://docsend.com/view/3vv23qu");
 		$(".language").val("1")
 	} 
 })
