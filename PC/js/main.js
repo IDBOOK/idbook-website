@@ -12,6 +12,19 @@ var jobList = [
 ]
 
 $(function() {
+	function getClientInfo() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        var agentinfo = null;
+        for (var i = 0; i < Agents.length; i++) {
+            if (userAgentInfo.indexOf(Agents[i]) > 0) { agentinfo = userAgentInfo; break; }
+        }
+        if (agentinfo) {
+            window.location.href="https://www.idbook.io/WX/index-wx.html"
+        }
+    }
+    getClientInfo()
+	
    
     var sceneBanner = new Swiper ('#sceneBanner', {
         // autoplay : 3000,

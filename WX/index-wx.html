@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/base-wx.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="Shortcut Icon" href="img/favicon.png">
 </head>
 <body class="p-r">
     <ul class="nav bg-f p-a">
@@ -534,6 +535,20 @@ IDB = f (MANA A,  MANA B, RVS, SoD)</p>
 <script type="text/javascript" src="js/main.js"></script>
 
 <script>
+	function getClientInfo() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        var agentinfo = null;
+        for (var i = 0; i < Agents.length; i++) {
+            if (userAgentInfo.indexOf(Agents[i]) > 0) { agentinfo = userAgentInfo; break; }
+        }
+        if (agentinfo) {} else {
+            window.location.href="https://www.idbook.io/PC/index.html"
+        }
+    }
+    getClientInfo()
+	
+	
     scaleW=window.innerWidth/320;
     scaleH=window.innerHeight/480;
     var resizes = document.querySelectorAll('.resize');
